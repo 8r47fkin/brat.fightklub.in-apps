@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <link
+            href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css"
+            rel="stylesheet"
+            integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x"
+            crossorigin="anonymous"
+        />
+        <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
+        <link rel="stylesheet" href="style.css" />
+        <title>Ssssshhhhh...!!!!!</title>
+        <link id='favicon' rel="shortcut icon" href="./assets/favicon/waterfr.png" type="image/x-png">
+
+    </head>
+    <body>
+        <div class="container">
+            <h4 id="title">Express - your personal space</h4>
+            <div class="controls">
+                <div class="main-controls">
+                    <div class="dropdown">
+                        <button
+                            class="btn btn-primary dropdown-toggle"
+                            data-bs-toggle="dropdown"
+                        >
+                            File
+                        </button>
+                        <div class="dropdown-menu">
+                            <button id="new-btn" class="dropdown-item">
+                                New
+                            </button>
+                            <button id="txt-btn" class="dropdown-item">
+                                Save as TXT
+                            </button>
+                            <button id="pdf-btn" class="dropdown-item">
+                                Save as PDF
+                            </button>
+                        </div>
+                    </div>
+
+                    <input id="filename-input" type="text" value="@fightklub.in" />
+                </div>
+                <div class="control-btn-container">
+                    <button id="bold-btn" class="btn btn-dark control-btn">
+                        <b>B</b>
+                    </button>
+                    <button id="underline-btn" class="btn btn-dark control-btn">
+                        <u>R</u>
+                    </button>
+                    <button id="italic-btn" class="btn btn-dark control-btn">
+                        <cite>A</cite>
+                    </button>
+                    <button id="strike-btn" class="btn btn-dark control-btn">
+                        <s>T</s>
+                    </button>
+                    <input id="color-btn" type="color" class="control-btn" />
+                </div>
+            </div>
+
+            <div id="content" contenteditable="true" spellcheck="false">
+                Welcome to <font color="purple">FightKlub.in!</font> <br>
+Feel free to express yourself here. <br>
+Simply erase this text and explore your thoughts. <br>
+For the filename, input your desired name at <s>'@fightklub.in'</s>. <br> <br>
+Furthermore, remember to safeguard this file; <br>
+Its creation might be <font color="green"> untraceable</font> unless you save it. <br>
+You won't even have a record if you don't store the text file for yourself. <br> <br>
+- - - - - - - - - - - - - - - - - - <br>
+No trackers! No backdoor! <br>
+Safe Internet for all <br>
+brat
+            
+            </div>
+        </div>
+
+
+
+        <section class="menu-section">
+            <h6 class="menu-heading">Fightklub Web Apps</h6>
+            <nav id="advanced-nav" class="advanced-nav menu" role="navigation">
+                <ul>
+                    <li>
+                        <a href="https://brat.fightklub.in/apps/express/" target="_blank">
+                            <div class="icon">
+                                <i class="fa fa-file-text"></i>
+                            </div>
+                            <div class="button-text">
+                                Express
+                                <span>your thoughts</span>
+                            </div>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="https://brat.fightklub.in/apps/sketch/" target="_blank">
+                            <div class="icon">
+                                <i class="fa fa-paper-plane"></i>
+                            </div>
+                            <div class="button-text">
+                                Sketch
+                                <span>your soul</span>
+                            </div>
+                        </a>
+                    </li>
+  
+                    <li>
+                        <a href="https://brat.fightklub.in/apps/list/" target="_blank">
+                            <div class="icon">
+                                <i class="fa fa-check-square-o"></i>
+                            </div>
+                            <div class="button-text">
+                                List
+                                <span>your tasks</span>
+                            </div>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="https://brat.fightklub.in/apps/pin/" target="_blank">
+                            <div class="icon">
+                                <i class="fa fa-bullseye"></i>
+                            </div>
+                            <div class="button-text">
+                                Pin
+                                <span>your goal</span>
+                            </div>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="https://brat.fightklub.in/" target="_blank">
+                            <div class="icon">
+                                <i class="fa fa-bolt"></i>
+                            </div>
+                            <div class="button-text">
+                                Brat
+                                <span>to collaborate</span>
+                            </div>
+                        </a>
+                    </li>
+                </ul>
+            </nav><!-- #advanced-nav .advanced-nav -->
+        </section><!-- .menu-section -->
+
+        <script src="htmltopdf.js"></script>
+        <script
+            src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js"
+            integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4"
+            crossorigin="anonymous"
+        ></script>
+        <script src="script.js"></script>
+    </body>
+</html>
